@@ -1,6 +1,7 @@
 import random
 from time import sleep
 
+
 print("Lets play a game of Rock Paper Scissor")
 
 user_selection = input("Choose your weapon for battle!(Rock/Paper/Scissor):")
@@ -73,3 +74,8 @@ sleep(1)
 print(f"\n The computer chose {computer_selection}")
 sleep(1)
 print(f"\n {outcomes.get(f'{dict_value}')}")
+
+# Find out win percentage out of number of plays
+player_win_percentage =
+# Also figure out how to loop the game 
+play_again = input("Play again")
